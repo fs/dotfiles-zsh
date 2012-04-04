@@ -15,3 +15,5 @@
   excludesfile = /Users/USER/.gitignore
 [mergetool]
   keepBackup = true
+[github]
+  user = GIT_USER_NAME
