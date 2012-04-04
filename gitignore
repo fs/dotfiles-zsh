@@ -1,0 +1,5 @@
+nbproject
+.DS_Store
+*.specification
+.idea
+db/development_structure.sql

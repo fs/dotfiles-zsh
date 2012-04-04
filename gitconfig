@@ -1,0 +1,17 @@
+[user]
+  name = USER
+  email = USER@flatstack.com
+[color]
+  branch = auto
+  diff = auto
+  pager = true
+  status = auto
+  interactive = auto
+[merge]
+  summary = true
+[core]
+  autocrlf = false
+  editor = mate -w
+  excludesfile = /Users/USER/.gitignore
+[mergetool]
+  keepBackup = true
