@@ -34,5 +34,5 @@ plugins=(git bundler textmate)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-# [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" # This loads RVM
-# PATH=$PATH:$HOME/.rvm/bin                                       # Add RVM to PATH for scripting
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" # This loads RVM
+PATH=$PATH:$HOME/.rvm/bin                                       # Add RVM to PATH for scripting
