@@ -1,6 +1,6 @@
 [user]
-  name = Timur Vafin
-  email = timur.vafin@flatstack.com
+  name = USER_NAME
+  email = EMAIL@flatstack.com
 [color]
   branch = auto
   diff = auto
@@ -12,6 +12,6 @@
 [core]
   autocrlf = false
   editor = mate -w
-  excludesfile = /Users/timurv/.gitignore
+  excludesfile = /Users/USER/.gitignore
 [mergetool]
   keepBackup = true
