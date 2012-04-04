@@ -34,5 +34,10 @@ plugins=(git bundler textmate)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" # This loads RVM
-PATH=$PATH:$HOME/.rvm/bin                                       # Add RVM to PATH for scripting
+
+# RVM
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
+
+# recommended by brew doctor
+export PATH="/usr/local/bin:/usr/local/sbin:$HOME/.rvm/bin:$PATH"]
+
