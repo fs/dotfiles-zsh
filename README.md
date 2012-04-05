@@ -8,7 +8,7 @@ First, [fork this repo](https://github.com/fs/dotfiles#fork_box) on Github.
 
 Then, clone your Github fork (replace "your-github-name" with your Github name) onto your laptop and install it:
 
-    git clone git@github.com:your-github-name/dotfiles.git
+    git clone --recurse-submodules git@github.com:your-github-name/dotfiles.git
     cd dotfiles
     ./install.sh
 
