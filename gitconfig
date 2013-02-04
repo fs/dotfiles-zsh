@@ -11,7 +11,7 @@
   summary = true
 [core]
   autocrlf = false
-  editor = mate -w
+  editor = subl --wait
   excludesfile = /Users/USER/.gitignore
 [mergetool]
   keepBackup = true
