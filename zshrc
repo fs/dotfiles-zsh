@@ -29,7 +29,7 @@ ZSH_THEME="robbyrussell"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(autojump git bundler sublime rails3)
+plugins=(rbenv git bundler sublime autojump rails3)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -42,9 +42,6 @@ source $ZSH/oh-my-zsh.sh
 # Default editor
 # export EDITOR='~/bin/subl --wait'
 
-# RVM
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
-
 # recommended by brew doctor
-export PATH="/usr/local/bin:/usr/local/sbin:$HOME/.rvm/bin:$PATH"]
+export PATH="/usr/local/bin:/usr/local/sbin:$PATH"]
 
