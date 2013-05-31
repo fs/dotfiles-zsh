@@ -43,5 +43,5 @@ source $ZSH/oh-my-zsh.sh
 # export EDITOR='~/bin/subl --wait'
 
 # recommended by brew doctor
-export PATH="/usr/local/bin:/usr/local/sbin:$PATH"]
+export PATH="/usr/local/bin:/usr/local/sbin:$HOME/bin:$PATH"
 
